@@ -17,7 +17,6 @@ bool is_palindrome(int i){
        return false;
     }
 }
-
 void print_list(int start,int end){
     cout<<"Palindrome number in the range are:\n";
     for(int i=start;i<=end;i++){
@@ -26,7 +25,6 @@ void print_list(int start,int end){
         }
     }
 }
-
 int main(){
 int start, end;
 cin >> start>>end;
