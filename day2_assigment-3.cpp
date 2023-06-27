@@ -10,9 +10,6 @@ int counter(int array[],int size,int num){
     }
     return count;
 }
-
-
-
 int main(){
 int size,count=0,no_repeat=-1;
 cout<<"Enter the size of list:\n";
